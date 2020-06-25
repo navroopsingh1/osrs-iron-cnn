@@ -32,7 +32,7 @@ from utils import visualization_utils as vis_util
 
 # Name of the directory containing the object detection module we're using
 MODEL_NAME = 'inference_graph'
-VIDEO_NAME = 'test.mov'
+VIDEO_NAME = 'sample.mp4'
 
 # Grab path to current working directory
 CWD_PATH = os.getcwd()
@@ -111,7 +111,7 @@ while(video.isOpened()):
         np.squeeze(scores),
         category_index,
         use_normalized_coordinates=True,
-        line_thickness=8,
+        line_thickness=2,
         min_score_thresh=0.60)
 
     # All the results have been drawn on the frame, so it's time to display it.
