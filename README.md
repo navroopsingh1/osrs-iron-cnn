@@ -5,7 +5,8 @@ A object detector for iron ores in the popular game Runescape that I developed w
 
 I used this model: 
 https://github.com/navroopsingh1/osrs-iron-data-set
-I used my own data-set that you can download here: http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_v2_coco_2018_01_28.tar.gz
+I used my own data-set that you can download here:
+http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_v2_coco_2018_01_28.tar.gz
 
 ### Two non-training set images
 ![Original](demo/DEMO1.PNG)
